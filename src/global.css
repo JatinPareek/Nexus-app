@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@font-face {
+  font-family: "Degular";
+  src: url("/public/Degular-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Degular";
+  src: url("/public/Degular-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Degular";
+  src: url("/public/Degular-Semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Degular";
+  src: url("/public/Degular-Bold.otf");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
